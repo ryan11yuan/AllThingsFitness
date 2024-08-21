@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+section.hero {
+    color: rgb(21, 60, 108);
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 0px;
+}
+
+section.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+section.hero img {
+    height: 60px;
+    width: 80px;
+}
+
+.floating-button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #f4f4f4;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.floating-button:hover {
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-10px);
+}
+
+.floating-button:active {
+    transform: translateY(-5px);
+}
+
+.main-content {
+    padding: 50px 0 0 0;
+    text-align: center;
+    background-color: rgb(33, 54, 80);
+}
+
+.main-content h2 {
+    color: #f4f4f4;
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points */
+}
+
+.slider-container {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    margin-bottom: 40px; 
+    margin: 30px auto 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.071); 
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #f4f4f4;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 10px; /* Space between slides */
+    border-radius: 10px;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(21, 60, 108);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.slider-btn:hover {
+    background-color: rgb(39, 85, 142);
+}
+
+.spacer {
+    width: 100%;
+    padding-bottom: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+  
+.layer1 {
+    background-image: url(layered-waves-haikei.svg);
+    height: 105px;
+}
+  

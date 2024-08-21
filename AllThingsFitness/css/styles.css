@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+section.hero {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0),
+        #4d85b45e
+    ),  url('/images/bg.jpg') no-repeat center center/cover;
+    color: rgb(21, 60, 108);
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 390px;
+}
+
+section.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+section.hero img {
+    height: 60px;
+    width: 80px;
+}
+
+.floating-button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: rgb(21, 60, 108);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    bottom: 0;
+}
+
+.floating-button:hover {
+    background-color: rgb(32, 81, 141);
+    transform: translateY(-10px); /* Moves the button up */
+}
+
+.floating-button:active {
+    transform: translateY(-5px); /* Slightly less movement on click */
+}
